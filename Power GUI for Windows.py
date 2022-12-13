@@ -1,4 +1,4 @@
-import tkinter,os,time
+import tkinter,os
 root = tkinter.Tk()
 label = tkinter.Label(root, text="Power")
 label.pack()
