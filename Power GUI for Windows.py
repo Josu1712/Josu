@@ -3,6 +3,7 @@ import tkinter,os
 root = tkinter.Tk()
 label = tkinter.Label(root, text="Power")
 label.pack()
+
 def shutdown():
     os.system("shutdown /s /t 5")
 def restart():
